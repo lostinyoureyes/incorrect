@@ -1,0 +1,9 @@
+; wmpplugin1PS.def : Declares the module parameters.
+
+LIBRARY    WMPPLUGIN1PS
+
+EXPORTS
+DllRegisterServer PRIVATE
+DllUnregisterServer PRIVATE
+DllCanUnloadNow PRIVATE
+DllGetClassObject PRIVATE
